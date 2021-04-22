@@ -1,0 +1,31 @@
+.description-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 50px;
+  /* border: 1px solid red; */
+}
+
+.des-image-container {
+  width: 50%;
+  text-align: center;
+}
+
+.description-image {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .description-section {
+    width: 100%;
+  }
+
+  .des-image-container{
+    width: 100%;
+  }
+}

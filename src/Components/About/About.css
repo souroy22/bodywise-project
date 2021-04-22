@@ -1,0 +1,43 @@
+.about-container {
+  width: 100%;
+  margin: 0;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.about-container h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-container button {
+  border: none;
+  outline-style: none;
+  width: 343px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.about-container button:focus {
+  outline-style: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    /* margin-top: -50px; */
+    padding: 30px;
+    /* width: 97.3%; */
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    /* margin-top: 200px; */
+  }
+}

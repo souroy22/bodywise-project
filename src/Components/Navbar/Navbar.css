@@ -1,0 +1,157 @@
+.navbar-container {
+  display: flex;
+  margin: 0;
+  background-color: #000000;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px 130px;
+  flex-wrap: wrap;
+  position: fixed;
+  margin-top: -35px;
+}
+
+h2 h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.left-section {
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  flex-wrap: wrap;
+}
+
+.middle-section h4 {
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.right-section span {
+  cursor: pointer;
+}
+
+.image {
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+}
+
+.profile-logo {
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cart-count {
+  background-color: gold;
+  color: black;
+  border-radius: 50%;
+  /* height: 10px; */
+  /* width: 15px; */
+  padding: 7px;
+  font-size: 9px;
+  font-weight: bolder;
+  margin: 0;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.hamburger-menu {
+  display: none;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.hamburger-options {
+  position: absolute;
+  top: 18px;
+  left: 38px;
+  background-color: #22cb5c;
+  color: black;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cross-btn {
+  font-size: 23px;
+  font-weight: bolder;
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-top: -6px;
+  margin-right: 15px;
+}
+
+.cross-btn:focus {
+  outline-style: none;
+}
+
+.hamburger-options h4 {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px;
+  transition: all ease-in 0.3s;
+}
+.hamburger-options h4:hover {
+  background-color: #207398;
+}
+
+.hamburger-options h4:last-child {
+  border: none;
+}
+
+@media (max-width: 1350px) {
+  .navbar-container {
+    padding: 15px 15px;
+  }
+  .middle-section {
+    width: 60%;
+  }
+  .right-section {
+    width: 20%;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar-container {
+    padding: 15px 15px;
+    padding-right: 25px;
+    justify-content: space-between;
+    width: 93%;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  .left-section {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  .middle-section {
+    display: none;
+  }
+  .right-section {
+    width: 40%;
+  }
+}

@@ -1,0 +1,22 @@
+.landingPage-container{
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+    z-index: -1;
+    margin-top: 35px;
+    background-image: url("https://girlup.imgix.net/2020/02/Who-We-Are.jpg?auto=format&fit=scale&h=1000&ixlib=php-3.3.0&w=2000&wpsize=bottom");
+}
+
+@media (max-width: 600px){
+    .landingPage-container{
+        /* margin-top: 30px; */
+        background-image: none;
+        width: 97.3%;
+        margin-bottom: 10px;
+    }
+}
