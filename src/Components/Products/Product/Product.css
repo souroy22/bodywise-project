@@ -15,11 +15,7 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
-  border-radius: 15px;
-}
-
-.prod-details {
-  /* padding: 10px; */
+  border-radius: 15px 15px 0 0;
 }
 
 .prod-details h4 {
@@ -64,6 +60,22 @@
 .original-price {
   margin-right: 10px;
   text-decoration: line-through;
+}
+
+.ratings {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 68px;
+  padding: 6px;
+  margin-left: -6px;
+  margin-top: -15px;
+  position: absolute;
+}
+
+.ratings h3 {
+  color: white;
+  margin-top: -7px;
 }
 
 .prod-price-details h5 {

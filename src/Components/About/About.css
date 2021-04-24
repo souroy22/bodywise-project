@@ -41,3 +41,9 @@
     /* margin-top: 200px; */
   }
 }
+
+@media (max-width: 450px) {
+  .about-container{
+    width: 99%;
+  }
+}

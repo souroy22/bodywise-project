@@ -1,5 +1,9 @@
 import React from "react";
 import "./Product.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faStar
+} from "@fortawesome/free-solid-svg-icons";
 
 const Product = () => {
   return (
@@ -9,6 +13,10 @@ const Product = () => {
           className="prod-image"
           src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit,w_800,c_limit/v1602178730/staging/products/Conditioner%20-pdp/carousel/1000x1000.png"
         />
+      </div>
+      <div className="ratings">
+        <FontAwesomeIcon icon={faStar} style={{color: "gold"}} />
+        <h3>4.5</h3>
       </div>
       <div className="prod-details">
         <h4>Hair fall Control Shampoo</h4>
